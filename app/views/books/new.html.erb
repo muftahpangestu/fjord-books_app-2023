@@ -1,9 +1,9 @@
-<h1>New book</h1>
+<h1><%= t('title.book.new') %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <div>
-  <%= link_to "Back to books", books_path %>
+  <%= link_to t('action.book.back_to_list'), books_path %>
 </div>
