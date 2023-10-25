@@ -1,0 +1,42 @@
+jp:
+  activerecord:
+    models:
+      book: "本"
+    attributes:
+      book:
+        title: "タイトル"
+        memo: "メモ"
+        author: "作者"
+        picture: "写真"
+
+  action:
+    book:
+      show: "本の詳細"
+      new: "新しい本を作成する"
+      edit: "編集する"
+      destroy: "削除する"
+      back_to_list: "本のリストに戻る"
+
+  form:
+    book:
+      new: "作成する"
+      edit: "編集する"
+
+  title:
+    book:
+      edit: "本の情報を編集する"
+      new: "新しい本を作成する"
+  
+  notice:
+    book:
+      create_success: "本の作成を完了しました。"
+      edit_success: "本の編集を完了しました。"
+      destroy_success: "本の削除を完了しました。"
+  
+  error:
+    book:
+      save_error: "%{error_count}つのエラーのおかげで本の保存は失敗しました。"
+
+
+
+  
